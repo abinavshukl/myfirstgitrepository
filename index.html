@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="spotify">
+                <img src="logo.png" alt="logo_spotify" class="logo"> Spotify
+            </li>
+            <li>
+                Home
+            </li>
+            <li id="click">
+                About
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>here is my best song playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/2.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">3:50 <i class="fa-solid playMusic fa-play-circle " id="2"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/3.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="3"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/4.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="4"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="5"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/6.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="6"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/7.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="7"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/8.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="8"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/9.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="9"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/10.jpg" alt="1">
+                    <span class="songName">let me love you</span>
+                    <span class="songListPlay"><span class="time">5:30 <i class="fa-solid playMusic fa-play-circle " id="10"></i></span></span>
+                </div>
+                <div class="gif">
+                    <img src="/playing.gif" alt="" id="gif1">
+                    <span id="marsterText">let me you </span>
+                </div>
+            </div>
+        </div>
+        <div class="rightList"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="progressBar" name="range" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="privious"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/4d59ee2a41.js" crossorigin="anonymous"></script>
+    <script src="/logic.js"></script>
+</body>
+
+</html>

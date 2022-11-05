@@ -1,0 +1,111 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.spotify {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+.logo {
+    /* height:40px; */
+    width: 40px;
+    padding: 0px 10px;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+
+
+
+}
+
+.navbar ul li {
+    padding: 0px 12px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+    width: 70vw;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    background-image: url('/bg.jpg');
+    background-position: center;
+}
+
+.bottom {
+    height: 80px;
+    position: sticky;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+/* .songItemContainer{
+    margin-top: 50px;
+} */
+
+.songItem {
+    display: flex;
+    height: 40px;
+   
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin: 10px 0px;
+}
+
+.songItem img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.time{
+    margin: 0 10px;
+}
+.time i{
+    cursor: pointer;
+}
+#gif1{
+    height: 60px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
